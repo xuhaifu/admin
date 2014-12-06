@@ -7,7 +7,7 @@
         <li class="active">管理员列表</li>
         <li class="pull-right"><a href="javascript:history.go(-1);">返回</a></li>
     </ul>
-    <div class="container-fluid">
+    <div class="container-fluid" style='overflow: hiddrn;'>
     <form id="form_search" name="form_search" action="" method="GET" style="margin-bottom:0px">
         <div style="float:left;margin-right:5px">
             <label>昵称</label>
@@ -33,7 +33,7 @@
     <div class="btn-toolbar">
         <a href="<?php echo create_url('admin/create');?>"><button class="btn btn-primary"><i class="icon-plus"></i> 新增</button></a>
     </div>
-    <div class="block">
+    <div class="block" style='clear:both'; >
         <a href="#list" class="block-heading" data-toggle="collapse">管理员列表</a>
         <div id="list" class="block-body collapse in">
             <table class="table table-striped table-hover">
