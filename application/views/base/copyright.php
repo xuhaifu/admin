@@ -1,1 +1,1 @@
-<div id="footer">Copyright © 2009 - <?php echo date("Y");?> ASM Network Technology Co.,Ltd. All rights reserved.<br/>爱上喵后台管理系统 版权所有</div>
+<div id="footer">Copyright © 2009 - <?php echo date("Y");?>Network后台管理系统 版权所有</div>
